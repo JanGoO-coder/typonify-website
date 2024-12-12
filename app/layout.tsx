@@ -40,6 +40,7 @@ export default async function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head />
+
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
@@ -65,6 +66,10 @@ export default async function RootLayout({
             <BaiDuAnalytics />
           </>
         )}
+        <link
+          href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
       </body>
     </html>
   );
